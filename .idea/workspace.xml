@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25da5840-9d55-480e-9ee1-2e8f9f6cde3c" name="Changes" comment="Player + store" />
+    <list default="true" id="25da5840-9d55-480e-9ee1-2e8f9f6cde3c" name="Changes" comment="Player + store">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/Navbar.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +102,9 @@
       <workItem from="1704925102913" duration="10069000" />
       <workItem from="1705000498066" duration="8900000" />
       <workItem from="1705183703940" duration="7074000" />
-      <workItem from="1705272317417" duration="2281000" />
+      <workItem from="1705272317417" duration="3561000" />
+      <workItem from="1705447690081" duration="1682000" />
+      <workItem from="1705671961439" duration="805000" />
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />

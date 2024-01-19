@@ -49,7 +49,7 @@ export default function Navbar() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        Persistent drawer
+                        Luxotify
                     </Typography>
                 </Toolbar>
             </AppBar>
@@ -65,7 +65,11 @@ export default function Navbar() {
                 </div>
                 <List>
                     {menuItems.map(({text, href}, index) => (
-                        <ListItem key={href} onClick={() => router.push(href)}>
+                        <ListItem
+                            key={href}
+                            onClick={() => router.push(href)}
+                            style={{ cursor: 'pointer' }}
+                        >
                             <ListItemIcon>
                                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
                             </ListItemIcon>
