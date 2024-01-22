@@ -14,16 +14,16 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/Inbox';
 import MailIcon from '@mui/icons-material/Mail';
 import {useRouter} from "next/router";
+import styles from '../styles/Navbar.module.scss';
 
 const menuItems = [
     {text: 'Home', href: '/'},
     {text: 'Track list', href: '/tracks'},
-    {text: 'Album list', href: '/albums'},
 ]
 
 export default function Navbar() {
     const [open, setOpen] = React.useState(false);
-    const router = useRouter()
+    const router = useRouter();
 
     const handleDrawerOpen = () => {
         setOpen(true);
@@ -34,17 +34,16 @@ export default function Navbar() {
     };
 
     return (
-        <div >
+        <div className={styles.navbar}>
             <CssBaseline />
-            <AppBar
-                position="fixed"
-            >
+            <AppBar position="fixed">
                 <Toolbar>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
                         onClick={handleDrawerOpen}
                         edge="start"
+                        className={styles.menuButton}
                     >
                         <MenuIcon />
                     </IconButton>
